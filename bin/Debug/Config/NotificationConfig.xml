@@ -1,0 +1,6 @@
+<notifications xmlns="">
+	<notify>
+		<email>Matt.Watson@Orasi.com</email>
+		<emailType>detail</emailType>
+	</notify>
+</notifications>

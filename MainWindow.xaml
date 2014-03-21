@@ -1,0 +1,100 @@
+﻿<Window x:Class="CloudScan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="" Height="600 " Width="800" BorderThickness="1" WindowStyle="None" ShowInTaskbar="False" ResizeMode="NoResize" Background="White" MouseDown="MainWindow_MouseDown"
+        >
+    <Grid DataContext="{StaticResource ResourceKey=ScheduleListSource}">
+        <Grid.Resources>
+            
+            <!-- DataSource for Profile Listbox-->
+           
+
+            <!-- Profile List Header style -->
+            <Style x:Key="listHeaderStyle" TargetType="{x:Type Border}">
+                <Setter Property="Height" Value="35" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Background" Value="#4E87D4" />
+            </Style>
+
+            <!-- Profile List Text Style-->
+            <Style x:Key="listHeaderTextStyle" TargetType="{x:Type Label}">
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="HorizontalAlignment" Value="Left" />
+            </Style>
+            <Style x:Key="listReportTextStyle" TargetType="{x:Type Label}">
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="HorizontalAlignment" Value="Right" />
+            </Style>
+            <Style x:Key="listReportTextStyle2" TargetType="{x:Type StackPanel}">
+                
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="HorizontalAlignment" Value="Right" />
+            </Style>
+
+            <!-- Data Template for Profile ListBox text-->
+            <DataTemplate x:Key="ScheduleListBoxDataTemplate">
+                <StackPanel Orientation="Horizontal" Width="400">
+                    
+                        
+                        <Label Content="{Binding XPath=clouds/url}" Style="{StaticResource listHeaderTextStyle}" />
+                    <Label Width="50"/>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
+                        <Label  Style="{StaticResource listReportTextStyle}" HorizontalAlignment="Right">Daily At:</Label>
+                        
+                        <StackPanel Orientation="Horizontal" Style="{StaticResource listReportTextStyle2}" HorizontalAlignment="Right" Margin="0">
+                            <Label Content="{Binding XPath=time/startTimeHour}"  HorizontalAlignment="Right" Style="{StaticResource listReportTextStyle}" Margin="0,0,-10,0" />
+                            <Label>:</Label>
+                            <Label Content="{Binding XPath=time/startTimeMinute}" HorizontalAlignment="Right" Style="{StaticResource listReportTextStyle}" Margin="-10,0,0,0"/>
+                        </StackPanel>
+                        
+                    </StackPanel>
+                </StackPanel>
+            </DataTemplate>
+        </Grid.Resources>
+        <!--<Grid.DataContext>
+            <XmlDataProvider x:Name="xmlProfileSource" XPath="clouds" Source="/Config/CloudConfig.xml"/>
+        </Grid.DataContext>-->
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="30"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>    <!-- Header -->
+            <RowDefinition Height="Auto"/>  <!--  Body  -->
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>    <!-- Footer -->
+        </Grid.RowDefinitions>
+        
+        <!--  Minimize to Taskbar Button -->
+        <Button Width="30" Height="30" Background="Transparent" Click="Button_Click" BorderThickness="0" BorderBrush="Transparent" Foreground="Transparent" Grid.Column="2">
+            <Button.Content>
+                <Image Grid.Column="2" Grid.Row="0" Source="Images/close.png" Height="30" Width="30"/>
+            </Button.Content>
+        </Button>
+
+        <!-- Define ListBox for Cloud Profiles-->
+        <!-- Label for Listbox -->
+        <Border Grid.Column="0" Grid.Row="1" Style="{StaticResource listHeaderStyle}">
+            <Label Style="{StaticResource listHeaderTextStyle}">Notification Profiles</Label>
+        </Border>
+        
+        <!--  Cloud Profile ListBox-->
+        <ListBox Name="ScheduleListBox" Grid.Column="0" Grid.Row="2" ItemsSource="{Binding XPath=schedule}" ItemTemplate="{StaticResource ScheduleListBoxDataTemplate}"/>
+        
+        <!-- Cloud Profile Button Group-->
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Click="Add_Schedule_Click" Content="Add Scheduled Scan"/>
+            <Button Grid.Row="1" Click="Edit_Schedule_Click" Content="Edit Scheduled Scan"/>
+            <Button Grid.Row="2" Click="Delete_Schedule_Click" Content="Delete Scheduled Scan"/>
+        </Grid>
+    </Grid>
+</Window>

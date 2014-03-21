@@ -1,0 +1,117 @@
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.exe.config
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.exe
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.pdb
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.csprojResolveAssemblyReference.cache
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\MainWindow.baml
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\MainWindow.g.cs
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\App.g.cs
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan_MarkupCompile.cache
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.g.resources
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.Properties.Resources.resources
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.csproj.GenerateResource.Cache
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.exe
+c:\users\matt.watson\documents\visual studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.pdb
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\obj\Debug\App.baml
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan_Content.g.cs
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\obj\Debug\AddNewProfile.baml
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\obj\Debug\AddNewProfile.g.cs
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.exe.manifest
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.application
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.exe.manifest
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.application
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\bin\Debug\Resources\CloudConfig.xml
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\bin\Debug\Config\CloudConfig.xml
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\obj\Debug\EditProfile.baml
+C:\Users\Matt.Watson\Documents\Visual Studio 2013\Projects\CloudScan\CloudScan\obj\Debug\EditProfile.g.cs
+C:\Users\Matt\Desktop\CloudScan\CloudScan\bin\Debug\CloudScan.exe.config
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan.exe
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan.pdb
+C:\Users\Matt\Desktop\CloudScan\CloudScan\bin\Debug\Config\CloudConfig.xml
+C:\Users\Matt\Desktop\CloudScan\CloudScan\bin\Debug\Resources\CloudConfig.xml
+C:\Users\Matt\Desktop\CloudScan\CloudScan\bin\Debug\CloudScan.exe.manifest
+C:\Users\Matt\Desktop\CloudScan\CloudScan\bin\Debug\CloudScan.application
+C:\Users\Matt\Desktop\CloudScan\CloudScan\bin\Debug\CloudScan.exe
+C:\Users\Matt\Desktop\CloudScan\CloudScan\bin\Debug\CloudScan.pdb
+C:\Users\Matt\Desktop\CloudScan\CloudScan\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Matt\Desktop\CloudScan\CloudScan\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan.csprojResolveAssemblyReference.cache
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\EditProfile.baml
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\AddNewProfile.baml
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\MainWindow.baml
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\App.baml
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\EditProfile.g.cs
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\AddNewProfile.g.cs
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\MainWindow.g.cs
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\App.g.cs
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan_Content.g.cs
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan_MarkupCompile.cache
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan.g.resources
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan.Properties.Resources.resources
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan.csproj.GenerateResource.Cache
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan.exe.manifest
+C:\Users\Matt\Desktop\CloudScan\CloudScan\obj\Debug\CloudScan.application
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Config\ScheduleConfig.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Config\NotificationConfig.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Config\CloudConfig.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.exe.config
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.exe.manifest
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.application
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.exe
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\CloudScan.pdb
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Common.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Dns.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Groupware.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Imap4.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Mail.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Nntp.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.OpenPGP.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Pop3.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Smtp.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.WhoIs.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Common.Logging.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Quartz.dll
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Common.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Dns.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Groupware.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Imap4.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Mail.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Nntp.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.OpenPGP.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Pop3.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.Smtp.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\ActiveUp.Net.WhoIs.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Common.Logging.pdb
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Common.Logging.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Quartz.pdb
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\bin\Debug\Quartz.xml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\AddNewNotification.baml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\EditProfile.baml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\AddNewProfile.baml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\Profiles.baml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\Notifications.baml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\MainWindow.baml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\App.baml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\AddNewNotification.g.cs
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\EditProfile.g.cs
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\AddNewProfile.g.cs
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\Profiles.g.cs
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\Notifications.g.cs
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\MainWindow.g.cs
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\App.g.cs
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\CloudScan_Content.g.cs
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\CloudScan_MarkupCompile.cache
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.g.resources
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.Properties.Resources.resources
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.csproj.GenerateResource.Cache
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.exe.manifest
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.application
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.exe
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\CloudScan.pdb
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\AddNewSchedule.baml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\AddNewSchedule.g.cs
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\AddEmail.baml
+C:\Users\Matt\Desktop\Projects\CloudScan\CloudScan\obj\Debug\AddEmail.g.cs

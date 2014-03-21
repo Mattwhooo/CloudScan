@@ -1,0 +1,111 @@
+﻿<Window x:Class="CloudScan.AddNewSchedule"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" d:DesignWidth="300"
+	Title="AddNewProfile" Height="530.225" Width="300" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label HorizontalAlignment="Left">Add New Schedule Profile</Label>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" VerticalAlignment="Center" Content="URL:"/>
+
+            <TextBox x:Name="urlTextBox" Height="20" Grid.Column="1" Margin="0,6,10,7" ToolTip="Enter URL for Cloud without HTTP://"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" VerticalAlignment="Center" Content="Username:" Margin="10,8,0,9" HorizontalAlignment="Left" Width="64"/>
+
+            <TextBox x:Name="usernameTextBox" Height="20" Grid.Column="1" Margin="10,6,10,7" ToolTip="Enter Cloud Username"/>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" VerticalAlignment="Center" Content="Password:" Margin="10,9,0,9"/>
+
+            <TextBox x:Name="passwordTextbox" Height="20" Grid.Column="1" Margin="10,7" ToolTip="Enter Cloud Password"/>
+        </Grid>
+        <Grid Grid.Row="4">
+          <Grid.DataContext>
+                <XmlDataProvider x:Name="listDataXml" XPath="notifications/email"/>
+            </Grid.DataContext> 
+            <Grid.Resources>
+                <DataTemplate x:Key="ScheduleListBoxDataTemplate">
+                    <Label Content="{Binding}"/>
+                </DataTemplate>
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"/>
+                
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <StackPanel Orientation="Vertical">
+                <Label Margin="10,0,0,0">Notification List:</Label>
+                <ListBox Name="ScheduleListBox"  Grid.Column="0" ItemsSource="{Binding XPath=email}" ItemTemplate="{StaticResource ScheduleListBoxDataTemplate}" Height="191" Margin="10,0" ToolTip="Email Address to receive error notifications"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Grid.Column="1" Height="75" VerticalAlignment="Stretch">
+                <Button Height="Auto" Margin="0,0,10,0" Click="Plus_Button_Click">+</Button>
+                <Label></Label>
+                <Label></Label>
+                <Button Height="Auto" Content="-" Margin="0,0,10,0" Click="Minus_Button_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" VerticalAlignment="Center" Content="Run Daily At: " Height="26" Margin="0,30"/>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBox Height="20" Name="Hours" Margin="0,28" Width="50"/>
+                <Label VerticalAlignment="Center"> : </Label>
+                <TextBox Height="20" Name="Minutes" Margin="0,28" Width="52"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Vertical" Grid.Column="2" VerticalAlignment="Center" Margin="0,28,10,28">
+                <RadioButton Name="amRadio" Content="AM" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+                <RadioButton Name="pmRadio" Content="PM" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Grid.Row="6">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Click="Validate_Button_Click">Add</Button>
+            <Button Grid.Column="1" Click="Cancel_Button_Click">Cancel</Button>
+        </Grid>
+
+    </Grid>
+</Window>
