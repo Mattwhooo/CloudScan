@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="CloudScan.exe.manifest" size="14200">
+    <dependentAssembly dependencyType="install" codebase="CloudScan.exe.manifest" size="13331">
       <assemblyIdentity name="CloudScan.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>V5ybWNoK4LkH8u2rC2XNnHnnoWDwGDVldni0mrLpznk=</dsig:DigestValue>
+        <dsig:DigestValue>eZb2W6X3gzHyF8Wv5a68kuuDZMUSQcUk5/ZWUq+MN5Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

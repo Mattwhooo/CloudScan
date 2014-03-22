@@ -163,14 +163,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CloudScan.exe" size="876544">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CloudScan.exe" size="884736">
       <assemblyIdentity name="CloudScan" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sqdnKtVO00TPHKZw1WMcG9xCAuBDbRCTD56vN+D5Dqo=</dsig:DigestValue>
+        <dsig:DigestValue>uc9Tq0PHvIlhVT4BAfggXre6z6J1DT+699LHgIuaWb8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -217,24 +217,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>W1QfefUd/wv6SUntljNz9er7WZ8EPXtcb7InZ7Xb89k=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Config\CloudConfig.xml" size="390" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>hvDyer6QIILNPrsXwrt4bZZLW1E5L2ljQWSzxq7Ikds=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Config\NotificationConfig.xml" size="138" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>BNgIdLemceNgGIjNLB8wikms/yPQ3UrWUUpaM5nS3dY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Config\ScheduleConfig.xml" size="37" writeableType="applicationData">

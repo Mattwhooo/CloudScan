@@ -9,7 +9,5 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("config/scheduleconfig.xml")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("config/notificationconfig.xml")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("config/cloudconfig.xml")]
 
 
